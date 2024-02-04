@@ -82,13 +82,13 @@ module.exports = {
 				},
 			},
 			scope: {
-				description: "What is the scope of this change (e.g. component or file name)",
+				description: "Scope ?",
 			},
 			subject: {
-				description: "Write a short, imperative tense description of the change",
+				description: "Title ?",
 			},
 			body: {
-				description: "Provide a longer description of the change",
+				description: "Description ?",
 			},
 			isBreaking: {
 				description: "Are there any breaking changes?",
@@ -97,7 +97,7 @@ module.exports = {
 				description: "A BREAKING CHANGE commit requires a body. Please enter a longer description of the commit itself",
 			},
 			breaking: {
-				description: "Describe the breaking changes",
+				description: "Breaking changes description",
 			},
 			isIssueAffected: {
 				description: "Does this change affect any open issues?",
