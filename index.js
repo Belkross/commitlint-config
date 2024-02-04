@@ -39,23 +39,22 @@ module.exports = {
 						emoji: "📚",
 					},
 					style: {
-						description:
-							"Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)",
+						description: "code format only changes",
 						title: "Styles",
 						emoji: "💎",
 					},
 					refactor: {
-						description: "A code change that neither fixes a bug nor adds a feature",
+						description: "source code changes that don’t affect the behavior of the app",
 						title: "Code Refactoring",
 						emoji: "📦",
 					},
 					perf: {
-						description: "A code change that improves performance",
+						description: "performance improvement",
 						title: "Performance Improvements",
 						emoji: "🚀",
 					},
 					test: {
-						description: "Adding missing tests or correcting existing tests",
+						description: "tests improvement",
 						title: "Tests",
 						emoji: "🚨",
 					},
@@ -66,8 +65,7 @@ module.exports = {
 						emoji: "🛠",
 					},
 					ci: {
-						description:
-							"Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)",
+						description: "Changes to our CI configuration files and scripts",
 						title: "Continuous Integrations",
 						emoji: "⚙️",
 					},
